@@ -1,0 +1,19 @@
+# Build products and local development state
+.build/
+.swiftpm/
+work/
+outputs/
+output/
+.DS_Store
+superpowers/
+# Private character artwork and internal conversation/design material
+Resources/Local/
+docs/superpowers/
+docs/ui-reference/
+# Never publish account data or environment secrets
+.env
+.env.*
+*.jsonl
+auth.json
+*.pem
+*.key

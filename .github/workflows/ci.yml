@@ -1,0 +1,14 @@
+name: macOS build
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  public-build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: swift --version
+      - run: zsh scripts/check.sh
+      - run: zsh scripts/build-app.sh
