@@ -10,6 +10,8 @@ CC0 全文见 LICENSES/CC0-1.0.txt。资源来源链接保留用于核对，构�
 
 ## 不分发的本地素材
 
-白龙原角色动画来自独立参考素材；目前没有确认可再分发的许可，因此不放入源码或公开构建。抱盆生成稿和带角色的菜单栏图标也保留本地，不以项目代码许可证替原角色权利人授权。用户需自行确认导入素材的使用范围。
+白龙01–25动画与持续动作衔接素材来自 [Wunsch2048/codex-bailong-desktop-pet](https://github.com/Wunsch2048/codex-bailong-desktop-pet)，原项目为 [jingh12312-rgb/bailong-desktop-pet](https://github.com/jingh12312-rgb/bailong-desktop-pet)。当前素材清单记录上游动画版本0.4.1。素材单独随Release分发，不放入Git历史。
 
-本项目未引入原 Python/PySide 桌宠项目代码。工作区内的 superpowers 参考仓库不属于本产品源码，不进入导出包。
+上游声明原样保存在 [NOTICE](docs/upstream/NOTICE.md)、[初始素材说明](docs/upstream/ASSETS.md) 和 [0.4.1素材说明](docs/upstream/ASSETS-v0.4.1.md)。上游发布者记录其取得的再分发授权，并明确该记录不代表对所有访问者另行授予权利；素材说明未额外授予商用或再分发许可。此处不将其描述为MIT、CC0或可任意再分发。
+
+26抱空盆静态图、动图及白龙菜单栏图标为本项目基于角色参考制作的衍生素材，原角色权利声明继续保留。这些角色资源不适用本项目代码的PolyForm许可证；下载不代表取得商业使用或进一步再分发授权。

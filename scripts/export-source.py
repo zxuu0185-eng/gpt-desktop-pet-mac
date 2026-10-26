@@ -14,7 +14,7 @@ allowed = [
     ".gitignore", "Package.swift", "README.md", "LICENSE.md", "NOTICE.md",
     "THIRD_PARTY_NOTICES.md", "CONTRIBUTING.md", "CHANGELOG.md", "LICENSES",
     "Sources", "Tests", "scripts", "Resources/Public", ".github/workflows/ci.yml",
-    "docs/PRIVACY.md", "docs/ASSETS.md", "docs/DEVELOPMENT.md",
+    "docs/PRIVACY.md", "docs/ASSETS.md", "docs/DEVELOPMENT.md", "docs/upstream",
 ]
 (root / "work").mkdir(exist_ok=True)
 stage = Path(tempfile.mkdtemp(prefix="public-source-", dir=root / "work")) / name
